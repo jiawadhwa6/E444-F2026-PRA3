@@ -16,3 +16,15 @@
 ### Enter name with non-UofT email
 ![Enter name with non-UofT email](images/1_4_3.png)
 
+
+## Docker Setup
+
+To build and run the app in Docker:
+
+```bash
+docker build -t flask-app .
+docker run -p 5001:5000 flask-app
+```
+
+Access at: http://localhost:5001
+
